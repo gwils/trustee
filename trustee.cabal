@@ -44,7 +44,7 @@ library
     binary               ^>= 0.8.5.1,
     bytestring           ^>= 0.10.8.2,
     Cabal                ^>= 2.2.0.1,
-    cabal-plan           ^>= 0.3.0.0,
+    cabal-plan           ^>= 0.4.0.0,
     clock                ^>= 0.7.2,
     containers           ^>= 0.5.10.2,
     cryptohash-sha512    ^>= 0.11.100.1,
