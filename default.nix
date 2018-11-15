@@ -5,7 +5,7 @@ let
   inherit (nixpkgs) pkgs;
 
   haskellPackages = if compiler == "default"
-                       then pkgs.haskell.packages.ghc843
+                       then pkgs.haskell.packages.ghc844
                        else pkgs.haskell.packages.${compiler};
 
   dontCheck = pkgs.haskell.lib.dontCheck;
